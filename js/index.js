@@ -58,15 +58,18 @@ window.addEventListener('scroll', function(e) {
     ticking = true;
   }
 });
-
+let input1=document.querySelector('.select');
+input1.style.color="black";
+input1.style.backgroundColor="purple";
 //select
-text_content2.addEventListener('select',(e)=>{
+input1.addEventListener('select',(e)=>{
     const selection = e.target.value.substring(e.target.selectionStart, e.target.selectionEnd);
    // e.target.alert(`you have selected:${selection}`);
    // e.target.style.fontSize="2rem";
    console.log("text2 selct");
    e.target.style.backgroundColor="red";
    alert(selection);
+   
 });
 
 //dbclick
