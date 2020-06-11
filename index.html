@@ -23,17 +23,24 @@
       <h1 class="logo-heading">Fun Bus</h1>
       <nav class="nav">
         <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="about.html">About Us</a>
         <a class="nav-link" href="#">Blog</a>
         <a class="nav-link" href="#">Contact</a>
+        
       </nav>
+      <input placeholder="Click here, then press down a key." size="40">
+        <p id="log"></p>
     </div>
   </header>
+  
+
      
   <div class="container home">
     <header class="intro">
+      <input class="select" value="Try selecting some text in this element.">
       <img src="img/fun-bus.jpg" alt="bus in the sand">
       <h2>Welcome To Fun Bus!</h2>
+      
       <p>Traveling expedition modern, clean webdesign blogger clean website theme website modern. Design pretty design, travelblogger adventure WordPress wanderlust theme blogger website expedition theme travelblogger. Adventure fun traveler pretty design website expedition.</p>
     </header>
     <section class="content-section">
@@ -84,7 +91,16 @@
 
   <footer class="footer">
     <p>Copyright Fun Bus 2018</p>
+    
   </footer>
+  <div class="dropzone"> 
+    <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)"> 
+      This div is draggable 
+    </div> 
+  </div> 
+  <div class="dropzone"></div>
+  <div class="dropzone"></div>
+  <div class="dropzone"></div>
 
 </body>
 </html>
